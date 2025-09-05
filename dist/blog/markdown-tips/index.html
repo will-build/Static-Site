@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Tips and Tricks - My Static Site</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <a href="/" class="logo">My Site</a>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blog">Blog</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/faq">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="container">
+    <article class="blog-post">
+        <header>
+            <h1>Markdown Tips and Tricks</h1>
+            <div class="post-meta">
+                <time datetime="2024-01-10">January 9, 2024</time>
+            </div>
+        </header>
+        <div class="post-content">
+            <h1>Markdown Tips and Tricks</h1>
+<p>Markdown is a simple markup language that makes it easy to write formatted text. Here are some essential tips for writing great Markdown content.</p>
+<h2>Basic Syntax</h2>
+<h3>Headers</h3>
+<pre><code class="language-markdown"># H1 Header
+## H2 Header
+### H3 Header
+</code></pre>
+<h3>Text Formatting</h3>
+<pre><code class="language-markdown">**Bold text**
+*Italic text*
+`Code inline`
+</code></pre>
+<h3>Lists</h3>
+<pre><code class="language-markdown">- Unordered list item
+- Another item
+  - Nested item
+
+1. Ordered list item
+2. Another item
+   1. Nested item
+</code></pre>
+<h3>Links and Images</h3>
+<pre><code class="language-markdown">[Link text](https://example.com)
+![Alt text](image.jpg)
+</code></pre>
+<h2>Advanced Features</h2>
+<h3>Code Blocks</h3>
+<pre><code class="language-javascript">function hello() {
+    console.log(&quot;Hello, World!&quot;);
+}
+</code></pre>
+<h3>Blockquotes</h3>
+<blockquote>
+<p>This is a blockquote. It&#39;s great for highlighting important information or quotes.</p>
+</blockquote>
+<h3>Tables</h3>
+<table>
+<thead>
+<tr>
+<th>Column 1</th>
+<th>Column 2</th>
+<th>Column 3</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Data 1</td>
+<td>Data 2</td>
+<td>Data 3</td>
+</tr>
+<tr>
+<td>Data 4</td>
+<td>Data 5</td>
+<td>Data 6</td>
+</tr>
+</tbody></table>
+<h2>Best Practices</h2>
+<ol>
+<li><strong>Use descriptive headers</strong> - They help with navigation and SEO</li>
+<li><strong>Keep paragraphs short</strong> - Long paragraphs are hard to read on screens</li>
+<li><strong>Use lists when appropriate</strong> - They make information easier to scan</li>
+<li><strong>Include alt text for images</strong> - Important for accessibility</li>
+<li><strong>Preview your content</strong> - Always check how it looks before publishing</li>
+</ol>
+<h2>Frontmatter</h2>
+<p>Don&#39;t forget to include frontmatter at the top of your files:</p>
+<pre><code class="language-yaml">---
+title: Your Post Title
+slug: your-post-slug
+date: 2024-01-15
+excerpt: A brief description of your post
+---
+</code></pre>
+<p>This metadata helps with organization and SEO. Happy writing!</p>
+
+        </div>
+    </article>
+</div>
+
+    </main>
+    
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 My Static Site. Built with simple tools.</p>
+        </div>
+    </footer>
+</body>
+</html>
